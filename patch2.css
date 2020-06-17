@@ -1,0 +1,101 @@
+body{
+    background-image: url("image/leaf.jpg");
+    background-size: cover;
+}
+
+.header{
+    text-align : center;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+    font-family: AR Destine;
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+}
+
+.container{
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+    border: 1px solid black;
+}
+
+.container a{
+    text-decoration: none;
+    font-family: AR Julian;
+    color : white;
+    transition : .3s;
+}
+
+.container a:hover{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+ul,li{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+table{
+    border-style: solid;
+    border : 1px;
+    border-radius: 25px;
+    width: 400px;
+    height: 250px;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+    font-family: AR Julian;
+    font-size: 20px;
+    color : white;
+    padding: 25px;
+}
+
+input[type=text]{
+    border-style: solid;
+    border-radius: 25px;
+    background-color:transparent;
+    height: 25px;
+    color: white;
+    padding: 5px;
+}
+
+
+input[type=submit]{
+    border-style: solid;
+    border-radius: 20px;
+    background-color: darkgrey;
+    width: 150px;
+    height : 70px;
+}
+
+select{
+    border-style: solid;
+    border-radius: 20px;
+    background-color:grey;
+    height: 25px;
+    color: white; 
+}
+
+table a{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: darkgrey;
+    padding: 26px;
+    color : black;
+    text-decoration: none;
+}
+
+::placeholder{
+    color: white;
+}
+
+

@@ -1,0 +1,115 @@
+body{
+    background-image: url("image/paris.jpg");
+    background-size: cover;
+}
+
+.logo{
+    background-color: white;
+    font-family: AR Destine;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-family: AR Destine;
+    color: #fff;
+    padding: 20px;
+    border : 2px solid black;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+}
+
+table{
+    color : white;
+    border : solid black;
+    width: 50%;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+}
+
+td a{
+    font-family: AR Julian;
+    text-decoration: none;
+    padding: 2px;
+}
+
+td a:hover{
+    font-family: AR Julian;
+    text-decoration: none;
+    padding : 5px;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+
+.container1{
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.container2{
+    align-content: center;
+    text-align: center;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+    border: 1px solid black;
+}
+
+ul,li{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+label{
+    font-family: AR Julian;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-family: AR Julian;
+    color : white;
+    transition : .3s;
+}
+
+a:hover{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+.one{
+    text-align : center;
+}
+
+.two{
+    text-align: center;
+    width: 115px;
+}
+
+.container3{
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+    border: 1px solid black;
+}
+
+
